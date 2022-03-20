@@ -1,0 +1,7 @@
+{
+  "Aside": "../packages/aside/index.js",
+  "Container": "../packages/container/index.js",
+  "Footer": "../packages/footer/index.js",
+  "Header": "../packages/header/index.js",
+  "Main": "../packages/main/index.js"
+}

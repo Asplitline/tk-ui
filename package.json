@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:cmp": "node packages/index.js",
+    "lint": "vue-cli-service lint",
+    "toJson": "node ./src/lib/toJson.js",
+    "test": "node test.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
